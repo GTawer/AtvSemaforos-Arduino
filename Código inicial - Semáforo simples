@@ -1,0 +1,123 @@
+// =====================================================
+// PROJETO: SEMÁFORO SIMPLES COM ARDUINO
+// Linguagem: C++ (Arduino)
+// Autor: Gabriel de Araujo Torres
+// =====================================================
+
+
+// VARIÁVEIS DOS PINOS
+// -----------------------------------------------------
+
+int pinVERMELHO = 13;
+
+int pinAMARELO = 12;
+
+int pinVERDE = 11;
+
+// =====================================================
+// FUNÇÃO SETUP()
+// =====================================================
+
+void setup()
+{
+
+}
+
+// =====================================================
+// FUNÇÃO LOOP()
+// =====================================================
+
+void loop()
+{
+
+// -------------------------------------------------
+// ACENDE O LED VERDE
+// -------------------------------------------------
+
+// Configura o pino do LED verde como SAÍDA
+// OUTPUT significa que o Arduino enviará energia
+// para controlar o LED
+pinMode(pinVERDE, OUTPUT);
+
+// Envia nível lógico HIGH (5V)
+// fazendo o LED verde acender
+digitalWrite(pinVERDE, HIGH);
+
+// Aguarda 4000 milissegundos
+// (4 segundos)
+delay(4000);
+
+// -------------------------------------------------
+// APAGA O LED VERDE
+// -------------------------------------------------
+
+// Mantém o pino como saída
+pinMode(pinVERDE, OUTPUT);
+
+// Envia nível lógico LOW (0V)
+// apagando o LED verde
+digitalWrite(pinVERDE, LOW);
+
+// -------------------------------------------------
+// ACENDE O LED AMARELO
+// -------------------------------------------------
+
+// Configura o pino do LED amarelo como saída
+pinMode(pinAMARELO, OUTPUT);
+
+// Liga o LED amarelo
+
+digitalWrite(pinAMARELO, HIGH);
+
+// Aguarda 1 segundo
+delay(1000);
+
+// -------------------------------------------------
+// APAGA O LED AMARELO
+// -------------------------------------------------
+
+// Mantém o pino amarelo como saída
+pinMode(pinAMARELO, OUTPUT);
+
+// Apaga o LED amarelo
+digitalWrite(pinAMARELO, LOW);
+
+// -------------------------------------------------
+// ACENDE O LED VERMELHO
+// -------------------------------------------------
+
+// Configura o pino vermelho como saída
+pinMode(pinVERMELHO, OUTPUT);
+
+// Liga o LED vermelho
+digitalWrite(pinVERMELHO, HIGH);
+
+// Aguarda 6 segundos
+delay(6000);
+
+// -------------------------------------------------
+// APAGA O LED VERMELHO
+// -------------------------------------------------
+
+// Mantém o pino vermelho como saída
+pinMode(pinVERMELHO, OUTPUT);
+
+// Apaga o LED vermelho
+digitalWrite(pinVERMELHO, LOW);
+
+}
+
+// =====================================================
+// FUNCIONAMENTO DO SISTEMA
+// =====================================================
+//
+// O programa simula o funcionamento básico
+// de um semáforo:
+//
+// 1) LED VERDE acende por 4 segundos
+
+// 2) LED AMARELO acende por 1 segundo
+// 3) LED VERMELHO acende por 6 segundos
+//
+// Depois disso, o ciclo recomeça automaticamente.
+// =====================================================
