@@ -1,4 +1,4 @@
-# 🚦 Sistema Inteligente de Controle de Trânsito: Desafio dos Semáforos Sincronizados 🔌
+# 🚦 Sistema Inteligente de Controle de Trânsito: Desafio dos Semáforos Sincronizados 👾
 
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge&logo=github)
 ![Platform](https://img.shields.io/badge/Plataforma-Tinkercad%20%2F%20Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
