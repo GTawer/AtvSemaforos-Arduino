@@ -45,7 +45,7 @@ Para resolver os problemas de congestionamento e acidentes do cruzamento, a lóg
 
 ---
 
-## 👥 Autores
+## 👥 Autoria
 
 * **Disciplina:** Lógica de Programação (LOPAL) / Internet das Coisas (IoT)
 * **Professores:** Raul Porto Lopes e Paulo Cesar Camargo
