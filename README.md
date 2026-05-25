@@ -49,7 +49,7 @@ Para resolver os problemas de congestionamento e acidentes do cruzamento, a lóg
 
 * **Disciplina:** Lógica de Programação (LOPAL) / Internet das Coisas (IoT)
 * **Professores:** Raul Porto Lopes e Paulo Cesar Camargo
-* **Alunos:** Gabriel de Araujo Torres (Nº 08)
+* **Aluno:** Gabriel de Araujo Torres (Nº 08)
 * **Data:** 12/05/2026
 
 #### Projeto desenvolvido no SENAI A. Jacob Lafer.
